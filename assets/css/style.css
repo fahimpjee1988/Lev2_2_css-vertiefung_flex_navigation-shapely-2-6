@@ -5,6 +5,12 @@
     padding: 0;
 }
 
+body{
+    background-image: url('https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1443527216320-7e744084f5a7-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
     header {
         font-family: 'Raleway', sans-serif;
         height: 76px;
@@ -53,3 +59,50 @@
     .logo:hover {
         color: #333;
     }
+
+    article{
+        text-align: center;
+        color:white;
+        padding-top:20%;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .p1{
+        font-size: 35px;
+        padding-bottom:12px;
+    }
+    .p2{
+        font-size:15px;
+        padding-bottom: 12px;
+    }
+
+    #button1{
+        font-size:15px;
+        padding:12px;
+        width:150px;
+        font-family: 'Raleway', sans-serif;
+
+    }
+    #button2{
+        font-size:15px;
+        padding:12px;
+        width: 150px;
+        background-color: #745cf9;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .ghost-button {
+        display: inline-block;
+        padding:12px;
+        width:150px;
+        color: #fff;
+        border: 1px solid #fff;
+        text-align: center;
+        outline: none;
+        text-decoration: none;
+      }
+
+      #button2:hover{
+          background-color: #5234f9;
+      }
